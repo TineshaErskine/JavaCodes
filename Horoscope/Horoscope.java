@@ -1,6 +1,7 @@
 // PSEUDOCODE
 /* 
  * This program will prompt the user to enter the month then day they were born
+ * If the date entered is not a date it will loop 
  * It will then print their zodiac sign
  */
 
