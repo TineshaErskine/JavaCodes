@@ -1,3 +1,9 @@
+// PSEUDOCODE
+/* 
+ * This program will prompt the user to enter the month then day they were born
+ * It will then print their zodiac sign
+ */
+
 import java.util.Scanner;
 
 public class Horoscope {
