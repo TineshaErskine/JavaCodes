@@ -1,7 +1,8 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
- * This program will have  
+ * This program will have an array that holds 10 random integers between 1 and 11
+ * It will then print these numbers into a text file in the same location as this project
+ * Lastly it will read the file, sum the integers, and print the sum of all integers.
  */
 
 package erskine7;
@@ -39,11 +40,6 @@ public class Assignment2 {
 		
 		//Declare a variable for the file
 		java.io.File file = new java.io.File(path);
-		
-		/*If statement to see if the file already exist
-		if(file.exists()) {
-			System.out.println("File already exist\n");
-		}*/
 		
 		//Use try to auto close the file
 		try (
