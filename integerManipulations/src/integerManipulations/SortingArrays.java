@@ -1,4 +1,3 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
  * This program will have an array that has 8 random integers 50 to 100 inclusive, duplicates are okay
@@ -9,11 +8,11 @@
  * Lastly this foreach loop will also count the even and odd numbers in the array and determine the sum of all elements in the array.  
  */
 
-package erskine5;
+package integerManipulations;
 
 import java.util.Arrays;
 
-public class Assignment1 {
+public class SortingArrays {
 
 	public static void main(String[] args) {
 		
