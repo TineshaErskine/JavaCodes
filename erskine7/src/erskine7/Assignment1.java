@@ -1,4 +1,3 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
  * This program will have a method that searches an integer array for a specified value
