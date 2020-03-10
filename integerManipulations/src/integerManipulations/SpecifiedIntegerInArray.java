@@ -1,4 +1,3 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
  * This program will have a method that searches an integer array for a specified value
@@ -8,11 +7,11 @@
  * The main method will test this method with a set array and user input for the specific integer
  */
 
-package erskine7;
+package integerManipulations;
 
 import java.util.Scanner;
 
-public class Assignment1 {
+public class SpecifiedIntegerInArray {
 
 	public static void main(String[] args) {
 		
