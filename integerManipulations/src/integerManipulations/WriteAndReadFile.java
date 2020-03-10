@@ -1,10 +1,11 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
- * This program will have  
+ * This program will have an array that holds 10 random integers between 1 and 11
+ * It will then print these numbers into a text file in the same location as this project
+ * Lastly it will read the file, sum the integers, and print the sum of all integers.
  */
 
-package erskine7;
+package integerManipulations;
 
 import java.io.PrintWriter;
 import java.io.IOException;
@@ -24,7 +25,7 @@ public class Assignment2 {
 			randomNums[i] = 1 + (double)(Math.random() * 10);
 		}
 		//Declare a variable to hold the string of the text file name
-		String path = "random_nums_assignemt2.txt";
+		String path = "random_nums.txt";
 		
 		//Pass the randomNums array to the write to file method
 		writeNumToFile(randomNums, path);
@@ -39,11 +40,6 @@ public class Assignment2 {
 		
 		//Declare a variable for the file
 		java.io.File file = new java.io.File(path);
-		
-		/*If statement to see if the file already exist
-		if(file.exists()) {
-			System.out.println("File already exist\n");
-		}*/
 		
 		//Use try to auto close the file
 		try (
