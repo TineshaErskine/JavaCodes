@@ -5,7 +5,7 @@
  * Lastly it will read the file, sum the integers, and print the sum of all integers.
  */
 
-package erskine7;
+package integerManipulations;
 
 import java.io.PrintWriter;
 import java.io.IOException;
