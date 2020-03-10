@@ -1,4 +1,3 @@
-//Tinesha Erskine SPC ID#2430820
 // PSEUDOCODE
 /* 
  * This program will take a variable number of integers entered as a command line argument
@@ -7,9 +6,9 @@
  *  Lastly it will display the sum
  */
 
-package erskine5;
+package integerManipulations;
 
-public class Assignment2 {
+public class CommandLineIntergers {
 
 	public static void main(String[] args) {
 		
